@@ -12,6 +12,7 @@ function createGrid(n, m){
         for(let j = 0; j < m; j++){
             var newInnerDiv =  document.createElement("div");
             newInnerDiv.className = "square";
+            newInnerDiv.addEventListener("mouseover", hover);
             newOuterDiv.appendChild(newInnerDiv);
           
         }
@@ -19,4 +20,7 @@ function createGrid(n, m){
     }
 }
 
+function hover(event){
+    console.log(event.target);
+}
 createGrid(16,16);
