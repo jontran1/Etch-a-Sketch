@@ -11,7 +11,7 @@ function createGrid(n, m){
         var newOuterDiv = document.createElement("div");
         for(let j = 0; j < m; j++){
             var newInnerDiv =  document.createElement("div");
-            newInnerDiv.className = "square";
+            newInnerDiv.className = "black-square";
             newInnerDiv.addEventListener("mouseover", hover);
             newOuterDiv.appendChild(newInnerDiv);
           
@@ -22,5 +22,10 @@ function createGrid(n, m){
 
 function hover(event){
     console.log(event.target);
+    var cell = event.target;
+    // if(cell.className == "white-square"){
+    //     cell.className = "black-square";
+    // }
+    cell.className = "white-square";
 }
 createGrid(16,16);
