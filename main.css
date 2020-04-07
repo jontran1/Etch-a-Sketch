@@ -1,20 +1,26 @@
 .black-square{
-    border: 20px solid rgba(0, 0, 0, 0.8);
+    background-color: black;
+    border: 1px solid rgba(0, 0, 0, 0.8);
     margin-top: 1px;
     margin-left: 1px;
     margin-right: 1px;
     margin-bottom: 1px;
+    padding:5px;
 }
 
 .white-square{
-    border: 20px solid rgba(255, 255, 255, 0.8);
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 0.8);
     margin-top: 1px;
     margin-left: 1px;
     margin-right: 1px;
     margin-bottom: 1px;
+    padding:5px;
+
 }
 
 #gridContainer{
     display: grid;
-    grid-template-columns: auto;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
 }
