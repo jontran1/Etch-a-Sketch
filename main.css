@@ -1,26 +1,28 @@
 .black-square{
     background-color: black;
-    border: 1px solid rgba(0, 0, 0, 0.8);
     margin-top: 1px;
     margin-left: 1px;
     margin-right: 1px;
-    margin-bottom: 1px;
+    margin-bottom:1px;
     padding:5px;
+    width: 5px;
+    height: 5px;
 }
 
 .white-square{
     background-color: white;
-    border: 1px solid rgba(255, 255, 255, 0.8);
     margin-top: 1px;
     margin-left: 1px;
     margin-right: 1px;
     margin-bottom: 1px;
     padding:5px;
-
+    width: 5px;
+    height: 5px;
 }
 
 #gridContainer{
     display: grid;
     grid-column-gap: 1px;
     grid-row-gap: 1px;
+    display: flex;
 }
