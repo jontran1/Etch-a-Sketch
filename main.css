@@ -13,12 +13,10 @@
 }
 
 #gridContainer{
-    display: grid;
     display: flex;
     justify-content: center;
 }
 
 #menu{
     text-align: center;
-    justify-content: center;
 }
