@@ -1,9 +1,9 @@
 /**
  * Pass in a div container and it creates a div inside a div
  * n * m divs
- * @param {div} mainDiv 
- * @param {*} n 
- * @param {*} m 
+ * @param {div element} mainDiv 
+ * @param {Number} n 
+ * @param {Number} m 
  */
 function createGrid(mainDiv, n, m){
     let auto = ""
