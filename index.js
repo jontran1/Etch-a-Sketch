@@ -55,8 +55,8 @@ function resetGrid(){
 }
 
 const container = document.querySelector('#gridContainer');
-var n = 5;
-var m = 5;
+var n = 64;
+var m = 64;
 createGrid(container, n,m);
 
 const resetButton = document.querySelector('#resetButton');
