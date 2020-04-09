@@ -1,20 +1,12 @@
 .black-square{
-    background-color: black;
-    margin-top: 1px;
-    margin-left: 1px;
-    margin-right: 1px;
-    margin-bottom: 1px;
+    background-color: white;
     padding:2px;
     width: 2px;
     height: 2px;
 }
 
 .white-square{
-    background-color: white;
-    margin-top: 1px;
-    margin-left: 1px;
-    margin-right: 1px;
-    margin-bottom: 1px;
+    background-color: black;
     padding:2px;
     width: 2px;
     height: 2px;
@@ -22,8 +14,6 @@
 
 #gridContainer{
     display: grid;
-    grid-column-gap: 1px;
-    grid-row-gap: 1px;
     display: flex;
     justify-content: center;
 }
