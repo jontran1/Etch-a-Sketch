@@ -3,10 +3,10 @@
     margin-top: 1px;
     margin-left: 1px;
     margin-right: 1px;
-    margin-bottom:1px;
-    padding:5px;
-    width: 5px;
-    height: 5px;
+    margin-bottom: 1px;
+    padding:2px;
+    width: 2px;
+    height: 2px;
 }
 
 .white-square{
@@ -15,9 +15,9 @@
     margin-left: 1px;
     margin-right: 1px;
     margin-bottom: 1px;
-    padding:5px;
-    width: 5px;
-    height: 5px;
+    padding:2px;
+    width: 2px;
+    height: 2px;
 }
 
 #gridContainer{
@@ -25,4 +25,5 @@
     grid-column-gap: 1px;
     grid-row-gap: 1px;
     display: flex;
+    justify-content: center;
 }
